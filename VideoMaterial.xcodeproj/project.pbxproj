@@ -14,6 +14,7 @@
 		96A5D3872252FF3300DF83B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A5D3852252FF3300DF83B7 /* LaunchScreen.storyboard */; };
 		96A5D3922252FF3300DF83B7 /* VideoMaterialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D3912252FF3300DF83B7 /* VideoMaterialTests.swift */; };
 		96A5D39D2252FF3300DF83B7 /* VideoMaterialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D39C2252FF3300DF83B7 /* VideoMaterialUITests.swift */; };
+		B1B165D1D142D6073C7AF5EE /* Pods_VideoMaterial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461D4CE1E1D5E7B23C3BE1BE /* Pods_VideoMaterial.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		461D4CE1E1D5E7B23C3BE1BE /* Pods_VideoMaterial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoMaterial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A5D3792252FF3200DF83B7 /* VideoMaterial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoMaterial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A5D37C2252FF3200DF83B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96A5D37E2252FF3200DF83B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		96A5D3982252FF3300DF83B7 /* VideoMaterialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoMaterialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A5D39C2252FF3300DF83B7 /* VideoMaterialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoMaterialUITests.swift; sourceTree = "<group>"; };
 		96A5D39E2252FF3300DF83B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		990BBCC85ED0499E8FBA61FB /* Pods-VideoMaterial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoMaterial.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoMaterial/Pods-VideoMaterial.release.xcconfig"; sourceTree = "<group>"; };
+		E360318179460982B801C8D5 /* Pods-VideoMaterial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoMaterial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoMaterial/Pods-VideoMaterial.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1B165D1D142D6073C7AF5EE /* Pods_VideoMaterial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DDF66CB4D8A8EFF6D786197 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E360318179460982B801C8D5 /* Pods-VideoMaterial.debug.xcconfig */,
+				990BBCC85ED0499E8FBA61FB /* Pods-VideoMaterial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		96A5D3702252FF3200DF83B7 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +95,8 @@
 				96A5D3902252FF3300DF83B7 /* VideoMaterialTests */,
 				96A5D39B2252FF3300DF83B7 /* VideoMaterialUITests */,
 				96A5D37A2252FF3200DF83B7 /* Products */,
+				3DDF66CB4D8A8EFF6D786197 /* Pods */,
+				CD7362806CFC7777A3FC0F3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +141,14 @@
 			path = VideoMaterialUITests;
 			sourceTree = "<group>";
 		};
+		CD7362806CFC7777A3FC0F3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				461D4CE1E1D5E7B23C3BE1BE /* Pods_VideoMaterial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96A5D3A12252FF3300DF83B7 /* Build configuration list for PBXNativeTarget "VideoMaterial" */;
 			buildPhases = (
+				7EBAD354AFE7206F24FCEF71 /* [CP] Check Pods Manifest.lock */,
 				96A5D3752252FF3200DF83B7 /* Sources */,
 				96A5D3762252FF3200DF83B7 /* Frameworks */,
 				96A5D3772252FF3200DF83B7 /* Resources */,
+				0B3A36D90DF640074903260D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,6 +276,55 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B3A36D90DF640074903260D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VideoMaterial/Pods-VideoMaterial-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoMaterial/Pods-VideoMaterial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EBAD354AFE7206F24FCEF71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VideoMaterial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		96A5D3752252FF3200DF83B7 /* Sources */ = {
@@ -430,9 +505,11 @@
 		};
 		96A5D3A22252FF3300DF83B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E360318179460982B801C8D5 /* Pods-VideoMaterial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = VideoMaterial/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -441,6 +518,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ybs.VideoMaterial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -448,9 +526,11 @@
 		};
 		96A5D3A32252FF3300DF83B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 990BBCC85ED0499E8FBA61FB /* Pods-VideoMaterial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = VideoMaterial/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -459,6 +539,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ybs.VideoMaterial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
