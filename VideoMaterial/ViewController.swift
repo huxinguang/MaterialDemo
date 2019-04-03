@@ -11,7 +11,8 @@ import PKHUD
 import SnapKit
 
 class ViewController: UIViewController {
-    fileprivate lazy var btn:UIButton = {
+    
+    fileprivate lazy var btn: UIButton = {
         () -> UIButton in
         let btn = UIButton.init(type: .custom)
         btn.backgroundColor = UIColor.green
@@ -26,8 +27,7 @@ class ViewController: UIViewController {
         self.view.addSubview(self.btn)
         self.btn.snp.makeConstraints { (make) in
             make.center.equalTo(self.view)
-            make.width.equalTo(80)
-            make.height.equalTo(40)
+            make.size.equalTo(CGSize(width: 80, height: 40))
         }
         
     }
