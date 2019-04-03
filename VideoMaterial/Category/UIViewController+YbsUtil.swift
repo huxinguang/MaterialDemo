@@ -45,7 +45,7 @@ extension UIViewController{
         }
     }
     
-    public func setStatusBar(hidden:Bool, animated:Bool) -> Void {
+    static func setStatusBar(hidden:Bool, animated:Bool) -> Void {
         let statusBar: UIView = UIApplication.shared.value(forKey: "statusBar") as! UIView
         if hidden {
             if animated {
