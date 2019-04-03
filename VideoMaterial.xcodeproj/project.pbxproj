@@ -18,23 +18,6 @@
 		96A5D429225367B400DF83B7 /* YbsConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D428225367B400DF83B7 /* YbsConstant.swift */; };
 		96A5D42C2254584E00DF83B7 /* UIViewController+YbsUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D42B2254584E00DF83B7 /* UIViewController+YbsUtil.swift */; };
 		96A5D42E22547CD400DF83B7 /* UIView+Positioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D42D22547CD400DF83B7 /* UIView+Positioning.swift */; };
-		96A5D4482254A32300DF83B7 /* PKHUDSystemActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D4362254A32300DF83B7 /* PKHUDSystemActivityIndicatorView.swift */; };
-		96A5D4492254A32300DF83B7 /* PKHUDAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D4372254A32300DF83B7 /* PKHUDAnimation.swift */; };
-		96A5D44A2254A32300DF83B7 /* PKHUDAnimating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D4382254A32300DF83B7 /* PKHUDAnimating.swift */; };
-		96A5D44B2254A32300DF83B7 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D4392254A32300DF83B7 /* FrameView.swift */; };
-		96A5D44C2254A32300DF83B7 /* PKHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D43A2254A32300DF83B7 /* PKHUD.swift */; };
-		96A5D44D2254A32300DF83B7 /* PKHUDSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D43B2254A32300DF83B7 /* PKHUDSuccessView.swift */; };
-		96A5D44E2254A32300DF83B7 /* PKHUDAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D43C2254A32300DF83B7 /* PKHUDAssets.swift */; };
-		96A5D44F2254A32300DF83B7 /* PKHUDWideBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D43D2254A32300DF83B7 /* PKHUDWideBaseView.swift */; };
-		96A5D4502254A32300DF83B7 /* PKHUDTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D43E2254A32300DF83B7 /* PKHUDTextView.swift */; };
-		96A5D4512254A32300DF83B7 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D43F2254A32300DF83B7 /* HUD.swift */; };
-		96A5D4522254A32300DF83B7 /* PKHUDRotatingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D4402254A32300DF83B7 /* PKHUDRotatingImageView.swift */; };
-		96A5D4532254A32300DF83B7 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D4412254A32300DF83B7 /* Window.swift */; };
-		96A5D4542254A32300DF83B7 /* WindowRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D4422254A32300DF83B7 /* WindowRootViewController.swift */; };
-		96A5D4552254A32300DF83B7 /* PKHUDProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D4432254A32300DF83B7 /* PKHUDProgressView.swift */; };
-		96A5D4562254A32300DF83B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96A5D4442254A32300DF83B7 /* Images.xcassets */; };
-		96A5D4572254A32300DF83B7 /* PKHUDSquareBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D4452254A32300DF83B7 /* PKHUDSquareBaseView.swift */; };
-		96A5D4582254A32300DF83B7 /* PKHUDErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D4462254A32300DF83B7 /* PKHUDErrorView.swift */; };
 		EB79119639AFA212E58ED034 /* Pods_VideoMaterial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D077A91624B2B61FA3E378 /* Pods_VideoMaterial.framework */; };
 /* End PBXBuildFile section */
 
@@ -76,24 +59,6 @@
 		96A5D428225367B400DF83B7 /* YbsConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YbsConstant.swift; sourceTree = "<group>"; };
 		96A5D42B2254584E00DF83B7 /* UIViewController+YbsUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+YbsUtil.swift"; sourceTree = "<group>"; };
 		96A5D42D22547CD400DF83B7 /* UIView+Positioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Positioning.swift"; sourceTree = "<group>"; };
-		96A5D4362254A32300DF83B7 /* PKHUDSystemActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKHUDSystemActivityIndicatorView.swift; sourceTree = "<group>"; };
-		96A5D4372254A32300DF83B7 /* PKHUDAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKHUDAnimation.swift; sourceTree = "<group>"; };
-		96A5D4382254A32300DF83B7 /* PKHUDAnimating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKHUDAnimating.swift; sourceTree = "<group>"; };
-		96A5D4392254A32300DF83B7 /* FrameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
-		96A5D43A2254A32300DF83B7 /* PKHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKHUD.swift; sourceTree = "<group>"; };
-		96A5D43B2254A32300DF83B7 /* PKHUDSuccessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKHUDSuccessView.swift; sourceTree = "<group>"; };
-		96A5D43C2254A32300DF83B7 /* PKHUDAssets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKHUDAssets.swift; sourceTree = "<group>"; };
-		96A5D43D2254A32300DF83B7 /* PKHUDWideBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKHUDWideBaseView.swift; sourceTree = "<group>"; };
-		96A5D43E2254A32300DF83B7 /* PKHUDTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKHUDTextView.swift; sourceTree = "<group>"; };
-		96A5D43F2254A32300DF83B7 /* HUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
-		96A5D4402254A32300DF83B7 /* PKHUDRotatingImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKHUDRotatingImageView.swift; sourceTree = "<group>"; };
-		96A5D4412254A32300DF83B7 /* Window.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
-		96A5D4422254A32300DF83B7 /* WindowRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowRootViewController.swift; sourceTree = "<group>"; };
-		96A5D4432254A32300DF83B7 /* PKHUDProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKHUDProgressView.swift; sourceTree = "<group>"; };
-		96A5D4442254A32300DF83B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		96A5D4452254A32300DF83B7 /* PKHUDSquareBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKHUDSquareBaseView.swift; sourceTree = "<group>"; };
-		96A5D4462254A32300DF83B7 /* PKHUDErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKHUDErrorView.swift; sourceTree = "<group>"; };
-		96A5D4472254A32300DF83B7 /* PKHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKHUD.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,34 +165,8 @@
 		96A5D4342254A17B00DF83B7 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				96A5D4352254A32300DF83B7 /* PKHUD */,
 			);
 			path = Tools;
-			sourceTree = "<group>";
-		};
-		96A5D4352254A32300DF83B7 /* PKHUD */ = {
-			isa = PBXGroup;
-			children = (
-				96A5D4362254A32300DF83B7 /* PKHUDSystemActivityIndicatorView.swift */,
-				96A5D4372254A32300DF83B7 /* PKHUDAnimation.swift */,
-				96A5D4382254A32300DF83B7 /* PKHUDAnimating.swift */,
-				96A5D4392254A32300DF83B7 /* FrameView.swift */,
-				96A5D43A2254A32300DF83B7 /* PKHUD.swift */,
-				96A5D43B2254A32300DF83B7 /* PKHUDSuccessView.swift */,
-				96A5D43C2254A32300DF83B7 /* PKHUDAssets.swift */,
-				96A5D43D2254A32300DF83B7 /* PKHUDWideBaseView.swift */,
-				96A5D43E2254A32300DF83B7 /* PKHUDTextView.swift */,
-				96A5D43F2254A32300DF83B7 /* HUD.swift */,
-				96A5D4402254A32300DF83B7 /* PKHUDRotatingImageView.swift */,
-				96A5D4412254A32300DF83B7 /* Window.swift */,
-				96A5D4422254A32300DF83B7 /* WindowRootViewController.swift */,
-				96A5D4432254A32300DF83B7 /* PKHUDProgressView.swift */,
-				96A5D4442254A32300DF83B7 /* Images.xcassets */,
-				96A5D4452254A32300DF83B7 /* PKHUDSquareBaseView.swift */,
-				96A5D4462254A32300DF83B7 /* PKHUDErrorView.swift */,
-				96A5D4472254A32300DF83B7 /* PKHUD.h */,
-			);
-			path = PKHUD;
 			sourceTree = "<group>";
 		};
 		E131D807026F4E1633FDF309 /* Frameworks */ = {
@@ -345,7 +284,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				96A5D3FB225328C800DF83B7 /* LaunchScreen.storyboard in Resources */,
-				96A5D4562254A32300DF83B7 /* Images.xcassets in Resources */,
 				96A5D3F8225328C800DF83B7 /* Assets.xcassets in Resources */,
 				96A5D3F6225328C700DF83B7 /* Main.storyboard in Resources */,
 			);
@@ -426,26 +364,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				96A5D429225367B400DF83B7 /* YbsConstant.swift in Sources */,
-				96A5D4502254A32300DF83B7 /* PKHUDTextView.swift in Sources */,
-				96A5D4522254A32300DF83B7 /* PKHUDRotatingImageView.swift in Sources */,
 				96A5D3F3225328C700DF83B7 /* ViewController.swift in Sources */,
-				96A5D44C2254A32300DF83B7 /* PKHUD.swift in Sources */,
 				96A5D42E22547CD400DF83B7 /* UIView+Positioning.swift in Sources */,
-				96A5D4552254A32300DF83B7 /* PKHUDProgressView.swift in Sources */,
-				96A5D4512254A32300DF83B7 /* HUD.swift in Sources */,
-				96A5D44E2254A32300DF83B7 /* PKHUDAssets.swift in Sources */,
-				96A5D4492254A32300DF83B7 /* PKHUDAnimation.swift in Sources */,
-				96A5D44A2254A32300DF83B7 /* PKHUDAnimating.swift in Sources */,
-				96A5D4482254A32300DF83B7 /* PKHUDSystemActivityIndicatorView.swift in Sources */,
-				96A5D4582254A32300DF83B7 /* PKHUDErrorView.swift in Sources */,
-				96A5D4532254A32300DF83B7 /* Window.swift in Sources */,
 				96A5D42C2254584E00DF83B7 /* UIViewController+YbsUtil.swift in Sources */,
-				96A5D44F2254A32300DF83B7 /* PKHUDWideBaseView.swift in Sources */,
 				96A5D3F1225328C700DF83B7 /* AppDelegate.swift in Sources */,
-				96A5D44D2254A32300DF83B7 /* PKHUDSuccessView.swift in Sources */,
-				96A5D4572254A32300DF83B7 /* PKHUDSquareBaseView.swift in Sources */,
-				96A5D4542254A32300DF83B7 /* WindowRootViewController.swift in Sources */,
-				96A5D44B2254A32300DF83B7 /* FrameView.swift in Sources */,
 				96A5D42322535F2800DF83B7 /* YbsApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
