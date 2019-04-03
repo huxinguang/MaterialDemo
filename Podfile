@@ -6,5 +6,6 @@ target 'VideoMaterial' do
   pod 'SnapKit', '~> 4.2.0'
   pod 'SwiftyJSON', '~> 4.2.0'
   pod 'Kingfisher', '~> 5.3.1'
+  pod 'MBProgressHUD', '~> 1.1.0'
 
 end

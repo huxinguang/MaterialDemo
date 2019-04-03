@@ -59,6 +59,7 @@
 		96A5D428225367B400DF83B7 /* YbsConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YbsConstant.swift; sourceTree = "<group>"; };
 		96A5D42B2254584E00DF83B7 /* UIViewController+YbsUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+YbsUtil.swift"; sourceTree = "<group>"; };
 		96A5D42D22547CD400DF83B7 /* UIView+Positioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Positioning.swift"; sourceTree = "<group>"; };
+		96A5D4A12254AC5300DF83B7 /* VideoMaterial-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VideoMaterial-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +128,7 @@
 				96A5D3F2225328C700DF83B7 /* ViewController.swift */,
 				96A5D42222535F2800DF83B7 /* YbsApi.swift */,
 				96A5D428225367B400DF83B7 /* YbsConstant.swift */,
+				96A5D4A12254AC5300DF83B7 /* VideoMaterial-Bridging-Header.h */,
 				96A5D3F4225328C700DF83B7 /* Main.storyboard */,
 				96A5D3F7225328C800DF83B7 /* Assets.xcassets */,
 				96A5D3F9225328C800DF83B7 /* LaunchScreen.storyboard */,
@@ -247,6 +249,7 @@
 				TargetAttributes = {
 					96A5D3EC225328C700DF83B7 = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
 					};
 					96A5D400225328C800DF83B7 = {
 						CreatedOnToolsVersion = 10.2;
@@ -339,6 +342,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-VideoMaterial/Pods-VideoMaterial-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
@@ -348,6 +352,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
@@ -544,6 +549,7 @@
 			baseConfigurationReference = 5187EC79B93D6207EBF3B3F8 /* Pods-VideoMaterial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VideoMaterial/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -553,8 +559,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ybs.VideoMaterial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/xinguanghu/Desktop/MaterialDemo/VideoMaterial/VideoMaterial-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Debug;
 		};
@@ -563,6 +572,7 @@
 			baseConfigurationReference = 6CF19E8FFA0D26A254264B16 /* Pods-VideoMaterial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VideoMaterial/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -572,8 +582,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ybs.VideoMaterial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/xinguanghu/Desktop/MaterialDemo/VideoMaterial/VideoMaterial-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Release;
 		};
