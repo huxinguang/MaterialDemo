@@ -6,6 +6,5 @@ target 'VideoMaterial' do
   pod 'SnapKit', '~> 4.2.0'
   pod 'SwiftyJSON', '~> 4.2.0'
   pod 'Kingfisher', '~> 5.3.1'
-  pod 'PKHUD', '~> 5.2.1'
 
 end
