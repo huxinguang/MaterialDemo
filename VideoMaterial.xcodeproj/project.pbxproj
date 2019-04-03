@@ -16,6 +16,8 @@
 		96A5D411225328C800DF83B7 /* VideoMaterialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D410225328C800DF83B7 /* VideoMaterialUITests.swift */; };
 		96A5D42322535F2800DF83B7 /* YbsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D42222535F2800DF83B7 /* YbsApi.swift */; };
 		96A5D429225367B400DF83B7 /* YbsConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D428225367B400DF83B7 /* YbsConstant.swift */; };
+		96A5D42C2254584E00DF83B7 /* UIViewController+YbsUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D42B2254584E00DF83B7 /* UIViewController+YbsUtil.swift */; };
+		96A5D42E22547CD400DF83B7 /* UIView+Positioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D42D22547CD400DF83B7 /* UIView+Positioning.swift */; };
 		EB79119639AFA212E58ED034 /* Pods_VideoMaterial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D077A91624B2B61FA3E378 /* Pods_VideoMaterial.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +57,8 @@
 		96A5D412225328C800DF83B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96A5D42222535F2800DF83B7 /* YbsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YbsApi.swift; sourceTree = "<group>"; };
 		96A5D428225367B400DF83B7 /* YbsConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YbsConstant.swift; sourceTree = "<group>"; };
+		96A5D42B2254584E00DF83B7 /* UIViewController+YbsUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+YbsUtil.swift"; sourceTree = "<group>"; };
+		96A5D42D22547CD400DF83B7 /* UIView+Positioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Positioning.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 		96A5D3EF225328C700DF83B7 /* VideoMaterial */ = {
 			isa = PBXGroup;
 			children = (
+				96A5D42A225457FA00DF83B7 /* Category */,
 				96A5D3F0225328C700DF83B7 /* AppDelegate.swift */,
 				96A5D3F2225328C700DF83B7 /* ViewController.swift */,
 				96A5D42222535F2800DF83B7 /* YbsApi.swift */,
@@ -145,6 +150,15 @@
 				96A5D412225328C800DF83B7 /* Info.plist */,
 			);
 			path = VideoMaterialUITests;
+			sourceTree = "<group>";
+		};
+		96A5D42A225457FA00DF83B7 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				96A5D42B2254584E00DF83B7 /* UIViewController+YbsUtil.swift */,
+				96A5D42D22547CD400DF83B7 /* UIView+Positioning.swift */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		E131D807026F4E1633FDF309 /* Frameworks */ = {
@@ -343,6 +357,8 @@
 			files = (
 				96A5D429225367B400DF83B7 /* YbsConstant.swift in Sources */,
 				96A5D3F3225328C700DF83B7 /* ViewController.swift in Sources */,
+				96A5D42E22547CD400DF83B7 /* UIView+Positioning.swift in Sources */,
+				96A5D42C2254584E00DF83B7 /* UIViewController+YbsUtil.swift in Sources */,
 				96A5D3F1225328C700DF83B7 /* AppDelegate.swift in Sources */,
 				96A5D42322535F2800DF83B7 /* YbsApi.swift in Sources */,
 			);
