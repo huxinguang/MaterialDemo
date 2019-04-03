@@ -14,6 +14,7 @@ import UIKit
 let kAppDelegate = UIApplication.shared.delegate as! AppDelegate
 
 //############################## 屏幕适配 ##############################
+
 let kScreenHeight = UIScreen.main.bounds.height
 let kScreenWidth  = UIScreen.main.bounds.width
 
@@ -64,8 +65,18 @@ let kMessageKey = "message"
 let kTokenExpiredCode = "5555"
 
 //############################## 第三方SDK #############################
+
+//bugly
 let kBuglyAppID = "61f55aada7"
 let kBuglyAppKey = "d3c9de1b-f2ab-405b-8cbf-f55f70596bce"
+
+//Getui
+let kGtAppId = "zuGIBQNoAo8EPgcNI52Q18"
+let kGtAppKey = "bAyknCYsTr8qRwOonA0EN1"
+let kGtAppSecret = "BfoyYR9u1S86TPkqbS4Ob5"
+
+
+
 
 
 
