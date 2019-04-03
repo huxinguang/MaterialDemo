@@ -8,18 +8,34 @@
 
 import UIKit
 import PKHUD
+import SnapKit
 
 class ViewController: UIViewController {
+    fileprivate lazy var btn:UIButton = {
+        () -> UIButton in
+        let btn = UIButton.init(type: .custom)
+        btn.backgroundColor = UIColor.green
+        btn.addTarget(self, action: #selector(self.onBtnClick), for: .touchUpInside)
+        return btn
+    }()
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.blue
+        self.view.addSubview(self.btn)
+        self.btn.snp.makeConstraints { (make) in
+            make.center.equalTo(self.view)
+            make.width.equalTo(80)
+            make.height.equalTo(40)
+        }
         
-        
-        
-
     }
+    
+    @objc internal func onBtnClick() -> Void {
+        print("点击了按钮")
+    }
+    
 
 
 }
