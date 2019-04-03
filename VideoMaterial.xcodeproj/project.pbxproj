@@ -14,6 +14,8 @@
 		96A5D3FB225328C800DF83B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A5D3F9225328C800DF83B7 /* LaunchScreen.storyboard */; };
 		96A5D406225328C800DF83B7 /* VideoMaterialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D405225328C800DF83B7 /* VideoMaterialTests.swift */; };
 		96A5D411225328C800DF83B7 /* VideoMaterialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D410225328C800DF83B7 /* VideoMaterialUITests.swift */; };
+		96A5D42322535F2800DF83B7 /* YbsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D42222535F2800DF83B7 /* YbsApi.swift */; };
+		96A5D429225367B400DF83B7 /* YbsConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D428225367B400DF83B7 /* YbsConstant.swift */; };
 		EB79119639AFA212E58ED034 /* Pods_VideoMaterial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D077A91624B2B61FA3E378 /* Pods_VideoMaterial.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +53,8 @@
 		96A5D40C225328C800DF83B7 /* VideoMaterialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoMaterialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A5D410225328C800DF83B7 /* VideoMaterialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoMaterialUITests.swift; sourceTree = "<group>"; };
 		96A5D412225328C800DF83B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96A5D42222535F2800DF83B7 /* YbsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YbsApi.swift; sourceTree = "<group>"; };
+		96A5D428225367B400DF83B7 /* YbsConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YbsConstant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 			children = (
 				96A5D3F0225328C700DF83B7 /* AppDelegate.swift */,
 				96A5D3F2225328C700DF83B7 /* ViewController.swift */,
+				96A5D42222535F2800DF83B7 /* YbsApi.swift */,
+				96A5D428225367B400DF83B7 /* YbsConstant.swift */,
 				96A5D3F4225328C700DF83B7 /* Main.storyboard */,
 				96A5D3F7225328C800DF83B7 /* Assets.xcassets */,
 				96A5D3F9225328C800DF83B7 /* LaunchScreen.storyboard */,
@@ -335,8 +341,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96A5D429225367B400DF83B7 /* YbsConstant.swift in Sources */,
 				96A5D3F3225328C700DF83B7 /* ViewController.swift in Sources */,
 				96A5D3F1225328C700DF83B7 /* AppDelegate.swift in Sources */,
+				96A5D42322535F2800DF83B7 /* YbsApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
