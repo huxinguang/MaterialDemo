@@ -9,8 +9,20 @@
 import Foundation
 import UIKit
 
+//private var kMBProgressHUDKey = "kMBProgressHUDKey"
+
 extension UIViewController{
     
+//    var hud: MBProgressHUD? {
+//        get{
+//           return (objc_getAssociatedObject(self, &kMBProgressHUDKey) as? MBProgressHUD)
+//        }
+//        set(newValue){
+//            objc_setAssociatedObject(self, &kMBProgressHUDKey, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+//        }
+//    }
+    
+
     static func currentViewController() -> UIViewController {
         let viewController: UIViewController = UIApplication.shared.keyWindow!.rootViewController!
         return UIViewController.findBestViewController(vc: viewController)
@@ -36,7 +48,7 @@ extension UIViewController{
         }else if vc.isKind(of: UITabBarController.self){
             let tv: UITabBarController = vc as! UITabBarController
             if tv.viewControllers!.count > 0{
-                return UIViewController .findBestViewController(vc: tv.selectedViewController!)
+                return UIViewController.findBestViewController(vc: tv.selectedViewController!)
             }else{
                 return vc
             }
@@ -67,5 +79,41 @@ extension UIViewController{
         }
         
     }
+    
+//    func showHUD(message:String,hideDelay:TimeInterval) -> Void {
+//        let hud = MBProgressHUD.showAdded(to: self.view, animated: true)
+//        hud.removeFromSuperViewOnHide = true
+//        hud.mode = .text
+//        hud.label.text = message
+//        hud.label.textColor = UIColor.white
+//        hud.label.numberOfLines = 0
+//        hud.label.font = UIFont.systemFont(ofSize: 15)
+//        hud.bezelView.backgroundColor = UIColor.black
+//        hud.margin = 12.5
+//        hud.hide(animated: true, afterDelay: hideDelay)
+//    }
+//    
+//    func showHUDToWindow(message:String,hideDelay:TimeInterval) -> Void {
+//        let hud = MBProgressHUD.showAdded(to: UIApplication.shared.keyWindow!, animated: true)
+//        hud.removeFromSuperViewOnHide = true
+//        hud.mode = .text
+//        hud.label.text = message
+//        hud.label.textColor = UIColor.white
+//        hud.label.numberOfLines = 0
+//        hud.label.font = UIFont.systemFont(ofSize: 15)
+//        hud.bezelView.backgroundColor = UIColor.black
+//        hud.margin = 12.5
+//        hud.hide(animated: true, afterDelay: hideDelay)
+//    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 }

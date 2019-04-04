@@ -18,6 +18,8 @@
 		96A5D429225367B400DF83B7 /* YbsConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D428225367B400DF83B7 /* YbsConstant.swift */; };
 		96A5D42C2254584E00DF83B7 /* UIViewController+YbsUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D42B2254584E00DF83B7 /* UIViewController+YbsUtil.swift */; };
 		96A5D42E22547CD400DF83B7 /* UIView+Positioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D42D22547CD400DF83B7 /* UIView+Positioning.swift */; };
+		96A5D4A7225600A000DF83B7 /* MBProgressHUD+JDragon.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D4A6225600A000DF83B7 /* MBProgressHUD+JDragon.m */; };
+		96A5D4A9225602CF00DF83B7 /* MBProgressHUD+YbsUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D4A8225602CF00DF83B7 /* MBProgressHUD+YbsUtil.swift */; };
 		EB79119639AFA212E58ED034 /* Pods_VideoMaterial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D077A91624B2B61FA3E378 /* Pods_VideoMaterial.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +62,9 @@
 		96A5D42B2254584E00DF83B7 /* UIViewController+YbsUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+YbsUtil.swift"; sourceTree = "<group>"; };
 		96A5D42D22547CD400DF83B7 /* UIView+Positioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Positioning.swift"; sourceTree = "<group>"; };
 		96A5D4A12254AC5300DF83B7 /* VideoMaterial-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VideoMaterial-Bridging-Header.h"; sourceTree = "<group>"; };
+		96A5D4A5225600A000DF83B7 /* MBProgressHUD+JDragon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+JDragon.h"; sourceTree = "<group>"; };
+		96A5D4A6225600A000DF83B7 /* MBProgressHUD+JDragon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+JDragon.m"; sourceTree = "<group>"; };
+		96A5D4A8225602CF00DF83B7 /* MBProgressHUD+YbsUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MBProgressHUD+YbsUtil.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,8 +163,11 @@
 		96A5D42A225457FA00DF83B7 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				96A5D4A5225600A000DF83B7 /* MBProgressHUD+JDragon.h */,
+				96A5D4A6225600A000DF83B7 /* MBProgressHUD+JDragon.m */,
 				96A5D42B2254584E00DF83B7 /* UIViewController+YbsUtil.swift */,
 				96A5D42D22547CD400DF83B7 /* UIView+Positioning.swift */,
+				96A5D4A8225602CF00DF83B7 /* MBProgressHUD+YbsUtil.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -370,7 +378,9 @@
 			files = (
 				96A5D429225367B400DF83B7 /* YbsConstant.swift in Sources */,
 				96A5D3F3225328C700DF83B7 /* ViewController.swift in Sources */,
+				96A5D4A9225602CF00DF83B7 /* MBProgressHUD+YbsUtil.swift in Sources */,
 				96A5D42E22547CD400DF83B7 /* UIView+Positioning.swift in Sources */,
+				96A5D4A7225600A000DF83B7 /* MBProgressHUD+JDragon.m in Sources */,
 				96A5D42C2254584E00DF83B7 /* UIViewController+YbsUtil.swift in Sources */,
 				96A5D3F1225328C700DF83B7 /* AppDelegate.swift in Sources */,
 				96A5D42322535F2800DF83B7 /* YbsApi.swift in Sources */,

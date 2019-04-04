@@ -22,17 +22,25 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.blue
+        self.view.backgroundColor = UIColor.white
         self.view.addSubview(self.btn)
         self.btn.snp.makeConstraints { (make) in
-            make.center.equalTo(self.view)
+            make.centerX.equalTo(self.view)
+            make.bottom.equalTo(self.bottomLayoutGuide.snp.top)
             make.size.equalTo(CGSize(width: 80, height: 40))
         }
     }
     
     @objc internal func onBtnClick() -> Void {
+//        self.showHUD(message: "请求成功", hideDelay: 2)
+//        self.showHUDToWindow(message: "请求成功", hideDelay: 2)
         
-        
+//        MBProgressHUD.showTipMessageInView(message: "请求成功", hideDelay: 1)
+        MBProgressHUD.showActivityMessageInView(message: "奋力加载中...")
+//        MBProgressHUD.showSuccessInView(message: "请求成功", hideDelay: 1)
+//        MBProgressHUD.showErrorInView(message: "请求失败", hideDelay: 1)
+//        MBProgressHUD.showInfoInView(message: "格式不正确", hideDelay: 1)
+//        MBProgressHUD.showWarningInView(message: "非法字符", hideDelay: 1)
         
     }
     
