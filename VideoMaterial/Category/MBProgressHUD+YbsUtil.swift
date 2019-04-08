@@ -16,6 +16,9 @@ extension MBProgressHUD{
         let hud = MBProgressHUD.showAdded(to: hudSuperView, animated: true)
         hud.label.text = message.isEmpty ? "加载中..." : message
         hud.label.font = UIFont.systemFont(ofSize: 15)
+        hud.bezelView.style = .solidColor
+        hud.bezelView.backgroundColor = UIColor.black.withAlphaComponent(0.8)
+        hud.contentColor = UIColor.white
         hud.removeFromSuperViewOnHide = true
         return hud
     }
@@ -100,7 +103,7 @@ extension MBProgressHUD{
         hud.hide(animated: true, afterDelay: hideDelay)
     }
     
-    
+    // ####################### hide #######################
     static func hideHUD() -> Void {
         let view: UIView = UIApplication.shared.keyWindow!
         self.hide(for: view, animated: true)

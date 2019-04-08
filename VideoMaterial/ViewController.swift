@@ -19,6 +19,14 @@ class ViewController: UIViewController {
         return btn
     }()
     
+    fileprivate lazy var btn1: UIButton = {
+        () -> UIButton in
+        let btn1 = UIButton.init(type: .custom)
+        btn1.backgroundColor = UIColor.blue
+        btn1.addTarget(self, action: #selector(self.onBtn1Click), for: .touchUpInside)
+        return btn1
+    }()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,6 +37,19 @@ class ViewController: UIViewController {
             make.bottom.equalTo(self.bottomLayoutGuide.snp.top)
             make.size.equalTo(CGSize(width: 80, height: 40))
         }
+        
+        self.view.addSubview(self.btn1)
+        self.btn1.snp.makeConstraints { (make) in
+            make.centerX.equalTo(self.view)
+            make.bottom.equalTo(self.btn.snp.top).offset(-10)
+            make.size.equalTo(CGSize(width: 80, height: 40))
+        }
+        
+        
+        
+        
+        
+        
     }
     
     @objc internal func onBtnClick() -> Void {
@@ -41,6 +62,11 @@ class ViewController: UIViewController {
 //        MBProgressHUD.showErrorInView(message: "请求失败", hideDelay: 1)
 //        MBProgressHUD.showInfoInView(message: "格式不正确", hideDelay: 1)
 //        MBProgressHUD.showWarningInView(message: "非法字符", hideDelay: 1)
+        
+    }
+    
+    @objc internal func onBtn1Click() -> Void {
+        MBProgressHUD.hideHUD()
         
     }
     
