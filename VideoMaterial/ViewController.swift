@@ -8,6 +8,7 @@
 
 import UIKit
 import SnapKit
+import Alamofire
 
 class ViewController: UIViewController {
     
@@ -64,7 +65,12 @@ class ViewController: UIViewController {
     }
     
     @objc internal func onBtn1Click() -> Void {
-        MBProgressHUD.hideHUD()
+//        MBProgressHUD.hideHUD()
+        
+        
+//        Alamofire.request("ddd", method: .post, parameters: <#T##Parameters?#>, encoding: URLEncoding.httpBody, headers: <#T##HTTPHeaders?#>)
+        
+        
         
     }
     

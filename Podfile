@@ -7,5 +7,6 @@ target 'VideoMaterial' do
   pod 'SwiftyJSON', '~> 4.2.0'
   pod 'Kingfisher', '~> 5.3.1'
   pod 'MBProgressHUD', '~> 1.1.0'
+  pod 'Moya', '~> 12.0.1'
 
 end

@@ -19,6 +19,8 @@
 		96A5D42C2254584E00DF83B7 /* UIViewController+YbsUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D42B2254584E00DF83B7 /* UIViewController+YbsUtil.swift */; };
 		96A5D42E22547CD400DF83B7 /* UIView+Positioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D42D22547CD400DF83B7 /* UIView+Positioning.swift */; };
 		96A5D4A9225602CF00DF83B7 /* MBProgressHUD+YbsUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D4A8225602CF00DF83B7 /* MBProgressHUD+YbsUtil.swift */; };
+		96A5D4AB225B178A00DF83B7 /* YbsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D4AA225B178A00DF83B7 /* YbsService.swift */; };
+		96A5D4AF225B31AD00DF83B7 /* YbsNetworkUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D4AE225B31AD00DF83B7 /* YbsNetworkUtil.swift */; };
 		EB79119639AFA212E58ED034 /* Pods_VideoMaterial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D077A91624B2B61FA3E378 /* Pods_VideoMaterial.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +64,8 @@
 		96A5D42D22547CD400DF83B7 /* UIView+Positioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Positioning.swift"; sourceTree = "<group>"; };
 		96A5D4A12254AC5300DF83B7 /* VideoMaterial-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VideoMaterial-Bridging-Header.h"; sourceTree = "<group>"; };
 		96A5D4A8225602CF00DF83B7 /* MBProgressHUD+YbsUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MBProgressHUD+YbsUtil.swift"; sourceTree = "<group>"; };
+		96A5D4AA225B178A00DF83B7 /* YbsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YbsService.swift; sourceTree = "<group>"; };
+		96A5D4AE225B31AD00DF83B7 /* YbsNetworkUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YbsNetworkUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,7 @@
 				96A5D3F0225328C700DF83B7 /* AppDelegate.swift */,
 				96A5D3F2225328C700DF83B7 /* ViewController.swift */,
 				96A5D42222535F2800DF83B7 /* YbsApi.swift */,
+				96A5D4AA225B178A00DF83B7 /* YbsService.swift */,
 				96A5D428225367B400DF83B7 /* YbsConstant.swift */,
 				96A5D4A12254AC5300DF83B7 /* VideoMaterial-Bridging-Header.h */,
 				96A5D3F4225328C700DF83B7 /* Main.storyboard */,
@@ -170,6 +175,7 @@
 		96A5D4342254A17B00DF83B7 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				96A5D4AE225B31AD00DF83B7 /* YbsNetworkUtil.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -346,6 +352,8 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
@@ -356,6 +364,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
@@ -373,7 +383,9 @@
 			files = (
 				96A5D429225367B400DF83B7 /* YbsConstant.swift in Sources */,
 				96A5D3F3225328C700DF83B7 /* ViewController.swift in Sources */,
+				96A5D4AB225B178A00DF83B7 /* YbsService.swift in Sources */,
 				96A5D4A9225602CF00DF83B7 /* MBProgressHUD+YbsUtil.swift in Sources */,
+				96A5D4AF225B31AD00DF83B7 /* YbsNetworkUtil.swift in Sources */,
 				96A5D42E22547CD400DF83B7 /* UIView+Positioning.swift in Sources */,
 				96A5D42C2254584E00DF83B7 /* UIViewController+YbsUtil.swift in Sources */,
 				96A5D3F1225328C700DF83B7 /* AppDelegate.swift in Sources */,
