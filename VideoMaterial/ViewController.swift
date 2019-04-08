@@ -54,7 +54,6 @@ class ViewController: UIViewController {
     
     @objc internal func onBtnClick() -> Void {
         
-        
         MBProgressHUD.showTipMessageInView(message: "请求成功", hideDelay: 1)
 //        MBProgressHUD.showActivityMessageInView(message: "奋力加载中...")
 //        MBProgressHUD.showSuccessInView(message: "请求成功", hideDelay: 1)
