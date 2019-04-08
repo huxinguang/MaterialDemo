@@ -53,11 +53,10 @@ class ViewController: UIViewController {
     }
     
     @objc internal func onBtnClick() -> Void {
-//        self.showHUD(message: "请求成功", hideDelay: 2)
-//        self.showHUDToWindow(message: "请求成功", hideDelay: 2)
         
-//        MBProgressHUD.showTipMessageInView(message: "请求成功", hideDelay: 1)
-        MBProgressHUD.showActivityMessageInView(message: "奋力加载中...")
+        
+        MBProgressHUD.showTipMessageInView(message: "请求成功", hideDelay: 1)
+//        MBProgressHUD.showActivityMessageInView(message: "奋力加载中...")
 //        MBProgressHUD.showSuccessInView(message: "请求成功", hideDelay: 1)
 //        MBProgressHUD.showErrorInView(message: "请求失败", hideDelay: 1)
 //        MBProgressHUD.showInfoInView(message: "格式不正确", hideDelay: 1)

@@ -111,7 +111,4 @@ extension MBProgressHUD{
         self.hide(for: UIViewController.currentViewController().view, animated: true)
     }
     
-    
-    
-    
 }
