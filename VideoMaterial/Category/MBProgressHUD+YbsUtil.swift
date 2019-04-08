@@ -14,11 +14,12 @@ extension MBProgressHUD{
         let hudSuperView: UIView = isWindow ? UIApplication.shared.keyWindow! :
             UIViewController.currentViewController().view!
         let hud = MBProgressHUD.showAdded(to: hudSuperView, animated: true)
-        hud.label.text = message.isEmpty ? "加载中..." : message
+        hud.label.text = message
         hud.label.font = UIFont.systemFont(ofSize: 15)
         hud.bezelView.style = .solidColor
         hud.bezelView.backgroundColor = UIColor.black.withAlphaComponent(0.8)
         hud.contentColor = UIColor.white
+        hud.margin = 15
         hud.removeFromSuperViewOnHide = true
         return hud
     }
