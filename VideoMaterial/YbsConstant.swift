@@ -70,10 +70,10 @@ let kTokenExpiredCode = "5555"
 let kBuglyAppID = "61f55aada7"
 let kBuglyAppKey = "d3c9de1b-f2ab-405b-8cbf-f55f70596bce"
 
-//Getui
-let kGtAppId = "zuGIBQNoAo8EPgcNI52Q18"
-let kGtAppKey = "bAyknCYsTr8qRwOonA0EN1"
-let kGtAppSecret = "BfoyYR9u1S86TPkqbS4Ob5"
+//UMeng
+let kUMengAppKey = "5caea1c90cafb24e8e0011c5"
+
+
 
 
 

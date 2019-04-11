@@ -66,6 +66,7 @@
 		96A5D4A8225602CF00DF83B7 /* MBProgressHUD+YbsUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MBProgressHUD+YbsUtil.swift"; sourceTree = "<group>"; };
 		96A5D4AA225B178A00DF83B7 /* YbsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YbsService.swift; sourceTree = "<group>"; };
 		96A5D4AE225B31AD00DF83B7 /* YbsNetworkUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YbsNetworkUtil.swift; sourceTree = "<group>"; };
+		96A5D4FA225EF98500DF83B7 /* VideoMaterial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VideoMaterial.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +129,7 @@
 		96A5D3EF225328C700DF83B7 /* VideoMaterial */ = {
 			isa = PBXGroup;
 			children = (
+				96A5D4FA225EF98500DF83B7 /* VideoMaterial.entitlements */,
 				96A5D4342254A17B00DF83B7 /* Tools */,
 				96A5D42A225457FA00DF83B7 /* Category */,
 				96A5D3F0225328C700DF83B7 /* AppDelegate.swift */,
@@ -259,6 +261,17 @@
 					96A5D3EC225328C700DF83B7 = {
 						CreatedOnToolsVersion = 10.2;
 						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.AccessWiFi = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					96A5D400225328C800DF83B7 = {
 						CreatedOnToolsVersion = 10.2;
@@ -353,6 +366,7 @@
 				"${BUILT_PRODUCTS_DIR}/Hue/Hue.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
@@ -366,6 +380,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hue.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
@@ -568,6 +583,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = VideoMaterial/VideoMaterial.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = B2RJ7Q2V53;
 				INFOPLIST_FILE = VideoMaterial/Info.plist;
@@ -593,6 +609,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = VideoMaterial/VideoMaterial.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = VideoMaterial/Info.plist;

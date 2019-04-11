@@ -9,6 +9,11 @@ target 'VideoMaterial' do
   pod 'MBProgressHUD', '~> 1.1.0'
   pod 'Moya', '~> 12.0.1'
   pod 'Hue'
+  pod 'MJRefresh'
+  pod 'UMCCommon'
+  pod 'UMCPush'
+  pod 'UMCSecurityPlugins'
+  pod 'UMCAnalytics'
   
 
 end
