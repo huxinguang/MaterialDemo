@@ -8,5 +8,7 @@ target 'VideoMaterial' do
   pod 'Kingfisher', '~> 5.3.1'
   pod 'MBProgressHUD', '~> 1.1.0'
   pod 'Moya', '~> 12.0.1'
+  pod 'Hue'
+  
 
 end
