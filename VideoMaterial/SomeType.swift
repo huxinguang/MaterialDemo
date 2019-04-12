@@ -1,6 +1,10 @@
 //
 //	SomeType.swift
-//	Model file generated using JSONExport: https://github.com/Ahmed-Ali/JSONExport
+//  VideoMaterial
+//
+//  Created by xinguang hu on 2019/4/11.
+//  Copyright © 2019 Yunbangshou. All rights reserved.
+//
 
 import Foundation
 import SwiftyJSON

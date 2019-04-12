@@ -48,13 +48,6 @@ class ViewController: UIViewController {
         }
         
         
-//        let jsondic = Dictionary<String, Any>.readLocalJson(fileName: "test")
-//        print(jsondic ?? [:]) // Dictionary打印在控制台，外层是[]
-//
-//        let ocDic:NSDictionary = jsondic! as NSDictionary
-//        print(ocDic) // NSDictionary打印在控制台，外层是{}
-        
-        
         // SwiftyJSON
         let path = Bundle.main.path(forResource: "test", ofType: "json")
         let data = try? Data.init(contentsOf: URL.init(fileURLWithPath: path!))
