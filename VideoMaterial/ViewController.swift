@@ -95,6 +95,9 @@ class ViewController: UIViewController {
 //        Alamofire.request("ddd", method: .post, parameters: <#T##Parameters?#>, encoding: URLEncoding.httpBody, headers: <#T##HTTPHeaders?#>)
         
         
+//        UIImage.createImage(color: UIColor.red, size: CGSize(width: 11, height: 11))
+        
+        
         
     }
     

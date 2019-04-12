@@ -28,7 +28,7 @@ extension UIViewController{
         return UIViewController.findBestViewController(vc: viewController)
     }
     
-    static func findBestViewController(vc :UIViewController) -> UIViewController {
+    fileprivate static func findBestViewController(vc :UIViewController) -> UIViewController {
         if vc.presentedViewController != nil {
             return UIViewController.findBestViewController(vc: vc.presentedViewController!)
         }else if vc.isKind(of: UISplitViewController.self){
