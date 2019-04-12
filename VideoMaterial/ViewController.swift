@@ -9,6 +9,7 @@
 import UIKit
 import SnapKit
 import Alamofire
+import SwiftyJSON
 
 class ViewController: UIViewController {
     
@@ -47,6 +48,29 @@ class ViewController: UIViewController {
         }
         
         
+//        let jsondic = Dictionary<String, Any>.readLocalJson(fileName: "test")
+//        print(jsondic ?? [:]) // Dictionary打印在控制台，外层是[]
+//
+//        let ocDic:NSDictionary = jsondic! as NSDictionary
+//        print(ocDic) // NSDictionary打印在控制台，外层是{}
+        
+        
+        // SwiftyJSON
+        let path = Bundle.main.path(forResource: "test", ofType: "json")
+        let data = try? Data.init(contentsOf: URL.init(fileURLWithPath: path!))
+        if let json = try?JSON.init(data: data!) {
+//            let address = json["address"]
+//            // 字段为null的情况
+//            let street = address["street"].stringValue
+//            self.btn1.setTitle(street, for: .normal)
+            
+            let st = SomeType.init(fromJson: json)
+            let address = st.address!
+            print(address.city!)
+            
+            
+            
+        }
         
         
         

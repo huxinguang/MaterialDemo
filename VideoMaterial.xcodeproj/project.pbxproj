@@ -21,6 +21,13 @@
 		96A5D4A9225602CF00DF83B7 /* MBProgressHUD+YbsUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D4A8225602CF00DF83B7 /* MBProgressHUD+YbsUtil.swift */; };
 		96A5D4AB225B178A00DF83B7 /* YbsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D4AA225B178A00DF83B7 /* YbsService.swift */; };
 		96A5D4AF225B31AD00DF83B7 /* YbsNetworkUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D4AE225B31AD00DF83B7 /* YbsNetworkUtil.swift */; };
+		96A5D4FD225F172100DF83B7 /* YbsNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D4FC225F172100DF83B7 /* YbsNavigationController.swift */; };
+		96A5D505225F36EC00DF83B7 /* UIImage+YbsUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D504225F36EC00DF83B7 /* UIImage+YbsUtil.swift */; };
+		96A5D507225F4CE800DF83B7 /* Dictionary+YbsUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D506225F4CE800DF83B7 /* Dictionary+YbsUtil.swift */; };
+		96A5D50922602A4800DF83B7 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 96A5D50822602A4800DF83B7 /* test.json */; };
+		96A5D50D2260703B00DF83B7 /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D50A2260703A00DF83B7 /* Link.swift */; };
+		96A5D50E2260703B00DF83B7 /* SomeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D50B2260703B00DF83B7 /* SomeType.swift */; };
+		96A5D50F2260703B00DF83B7 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5D50C2260703B00DF83B7 /* Address.swift */; };
 		EB79119639AFA212E58ED034 /* Pods_VideoMaterial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D077A91624B2B61FA3E378 /* Pods_VideoMaterial.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +74,13 @@
 		96A5D4AA225B178A00DF83B7 /* YbsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YbsService.swift; sourceTree = "<group>"; };
 		96A5D4AE225B31AD00DF83B7 /* YbsNetworkUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YbsNetworkUtil.swift; sourceTree = "<group>"; };
 		96A5D4FA225EF98500DF83B7 /* VideoMaterial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VideoMaterial.entitlements; sourceTree = "<group>"; };
+		96A5D4FC225F172100DF83B7 /* YbsNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YbsNavigationController.swift; sourceTree = "<group>"; };
+		96A5D504225F36EC00DF83B7 /* UIImage+YbsUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+YbsUtil.swift"; sourceTree = "<group>"; };
+		96A5D506225F4CE800DF83B7 /* Dictionary+YbsUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+YbsUtil.swift"; sourceTree = "<group>"; };
+		96A5D50822602A4800DF83B7 /* test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		96A5D50A2260703A00DF83B7 /* Link.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		96A5D50B2260703B00DF83B7 /* SomeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeType.swift; sourceTree = "<group>"; };
+		96A5D50C2260703B00DF83B7 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,10 +144,15 @@
 			isa = PBXGroup;
 			children = (
 				96A5D4FA225EF98500DF83B7 /* VideoMaterial.entitlements */,
+				96A5D4FB225F16F100DF83B7 /* Base */,
 				96A5D4342254A17B00DF83B7 /* Tools */,
 				96A5D42A225457FA00DF83B7 /* Category */,
 				96A5D3F0225328C700DF83B7 /* AppDelegate.swift */,
 				96A5D3F2225328C700DF83B7 /* ViewController.swift */,
+				96A5D50822602A4800DF83B7 /* test.json */,
+				96A5D50B2260703B00DF83B7 /* SomeType.swift */,
+				96A5D50C2260703B00DF83B7 /* Address.swift */,
+				96A5D50A2260703A00DF83B7 /* Link.swift */,
 				96A5D42222535F2800DF83B7 /* YbsApi.swift */,
 				96A5D4AA225B178A00DF83B7 /* YbsService.swift */,
 				96A5D428225367B400DF83B7 /* YbsConstant.swift */,
@@ -170,6 +189,8 @@
 				96A5D42B2254584E00DF83B7 /* UIViewController+YbsUtil.swift */,
 				96A5D42D22547CD400DF83B7 /* UIView+Positioning.swift */,
 				96A5D4A8225602CF00DF83B7 /* MBProgressHUD+YbsUtil.swift */,
+				96A5D504225F36EC00DF83B7 /* UIImage+YbsUtil.swift */,
+				96A5D506225F4CE800DF83B7 /* Dictionary+YbsUtil.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -180,6 +201,14 @@
 				96A5D4AE225B31AD00DF83B7 /* YbsNetworkUtil.swift */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		96A5D4FB225F16F100DF83B7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				96A5D4FC225F172100DF83B7 /* YbsNavigationController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		E131D807026F4E1633FDF309 /* Frameworks */ = {
@@ -309,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96A5D3FB225328C800DF83B7 /* LaunchScreen.storyboard in Resources */,
+				96A5D50922602A4800DF83B7 /* test.json in Resources */,
 				96A5D3F8225328C800DF83B7 /* Assets.xcassets in Resources */,
 				96A5D3F6225328C700DF83B7 /* Main.storyboard in Resources */,
 			);
@@ -398,10 +428,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96A5D4FD225F172100DF83B7 /* YbsNavigationController.swift in Sources */,
 				96A5D429225367B400DF83B7 /* YbsConstant.swift in Sources */,
 				96A5D3F3225328C700DF83B7 /* ViewController.swift in Sources */,
+				96A5D505225F36EC00DF83B7 /* UIImage+YbsUtil.swift in Sources */,
+				96A5D507225F4CE800DF83B7 /* Dictionary+YbsUtil.swift in Sources */,
+				96A5D50E2260703B00DF83B7 /* SomeType.swift in Sources */,
+				96A5D50D2260703B00DF83B7 /* Link.swift in Sources */,
 				96A5D4AB225B178A00DF83B7 /* YbsService.swift in Sources */,
 				96A5D4A9225602CF00DF83B7 /* MBProgressHUD+YbsUtil.swift in Sources */,
+				96A5D50F2260703B00DF83B7 /* Address.swift in Sources */,
 				96A5D4AF225B31AD00DF83B7 /* YbsNetworkUtil.swift in Sources */,
 				96A5D42E22547CD400DF83B7 /* UIView+Positioning.swift in Sources */,
 				96A5D42C2254584E00DF83B7 /* UIViewController+YbsUtil.swift in Sources */,
